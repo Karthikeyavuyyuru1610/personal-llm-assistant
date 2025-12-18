@@ -1,6 +1,6 @@
 import os
 from groq import Groq
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = "#PLACE_YOUR_API_KEY_HERE"
 
 
 # ===================== API CONFIG =====================
@@ -129,3 +129,4 @@ while True:
 
     response = ask_llm(user_input)
     print("\nAI:", response, "\n")
+
